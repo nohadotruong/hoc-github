@@ -1,0 +1,45 @@
+PS D:\STUDY\HocGit\Github-Demo> git iniy
+git: 'iniy' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+PS D:\STUDY\HocGit\Github-Demo> git init
+Initialized empty Git repository in D:/STUDY/HocGit/Github-Demo/.git/
+PS D:\STUDY\HocGit\Github-Demo> git status
+On branch master
+
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\STUDY\HocGit\Github-Demo> git add index.html
+PS D:\STUDY\HocGit\Github-Demo> git status        
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+PS D:\STUDY\HocGit\Github-Demo> git commit -m "Add index.html file"
+Author identity unknown
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@IXXMMIVSDRGN.(none)')
+PS D:\STUDY\HocGit\Github-Demo> git config --global user.email "longtruongphamhai@gmail.com"   
+PS D:\STUDY\HocGit\Github-Demo> git commit -m "Add index.html file"
+[master (root-commit) 933671c] Add index.html file
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+PS D:\STUDY\HocGit\Github-Demo>
+
